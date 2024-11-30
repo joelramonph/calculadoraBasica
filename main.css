@@ -1,0 +1,84 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+ 
+ 
+}
+
+.container{
+    
+    max-width: 40rem;
+    margin: 5rem  auto;
+    min-height: 40rem;
+    border: 1px solid black;
+    padding: 2rem;
+    background-color: #536493;
+    border-radius: 1rem;
+}
+
+.container-visores{
+    
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+.container-visores input{
+    padding: 1rem;
+}
+
+.container-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    min-height: 20rem;
+    width: 100%;
+}
+
+.btn-opns-basicas{
+    display: flex;
+    justify-content: space-evenly;
+    
+    text-align: center;
+    padding: 1rem;
+    min-width: 90%;
+    margin-bottom: 2rem;
+}
+
+.btn-opns-avanzada{
+   
+    text-align: center;
+    padding: 1rem;
+    min-width: 90%;
+}
+
+.container-resultado{
+    
+    text-align: center;
+}
+
+.container-resultado input{
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.btn-opns-extras{
+    text-align: center;
+    padding: 1rem;
+   
+}
+.btn{
+ border-style: none;
+ padding: 1.5rem;
+ font-size: 1.5rem;
+ background-color: #024CAA;
+ color: white;
+ font-weight: bold;
+ border-radius: .5rem;
+ 
+}
