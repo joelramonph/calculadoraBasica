@@ -41,13 +41,11 @@ function getPotencia(){
 
 function getRaiz(){
     let numeroUnoEle = Number(document.getElementById("numberUno").value)
-    let numeroDosEle = Number(document.getElementById("numberDos").value)
     showResultado(Math.sqrt(numeroUnoEle))
 }
 
 function getAbs(){
     let numeroUnoEle = Number(document.getElementById("numberUno").value)
-    let numeroDosEle = Number(document.getElementById("numberDos").value)
     showResultado(Math.abs(numeroUnoEle))
 }
 
