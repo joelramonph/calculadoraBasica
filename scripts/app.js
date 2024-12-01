@@ -1,36 +1,33 @@
 
 
 function showResultado(resultado){ 
-    document.getElementById("textResultado").value = resultado;
-    
-}
+    document.getElementById("textResultado").value = resultado; 
+} // Mostrar Resultado en el input textoresultado
 
 function getSuma(){
     let numeroUnoEle = Number(document.getElementById("numberUno").value)
     let numeroDosEle = Number(document.getElementById("numberDos").value)
     showResultado(numeroUnoEle + numeroDosEle)
-  
 }
+
+//Funciones de Operaciones 
 
 function getResta(){
     let numeroUnoEle = Number(document.getElementById("numberUno").value)
     let numeroDosEle = Number(document.getElementById("numberDos").value)
-    showResultado(numeroUnoEle - numeroDosEle)
-  
+    showResultado(numeroUnoEle - numeroDosEle) 
 }
 
 function getMul(){
     let numeroUnoEle = Number(document.getElementById("numberUno").value)
     let numeroDosEle = Number(document.getElementById("numberDos").value)
     showResultado(numeroUnoEle * numeroDosEle)
-  
 }
 
 function getDiv(){
     let numeroUnoEle = Number(document.getElementById("numberUno").value)
     let numeroDosEle = Number(document.getElementById("numberDos").value)
     showResultado(numeroUnoEle / numeroDosEle)
-  
 }
 
 function getPotencia(){
@@ -41,13 +38,11 @@ function getPotencia(){
 
 function getRaiz(){
     let numeroUnoEle = Number(document.getElementById("numberUno").value)
-    let numeroDosEle = Number(document.getElementById("numberDos").value)
     showResultado(Math.sqrt(numeroUnoEle))
 }
 
 function getAbs(){
     let numeroUnoEle = Number(document.getElementById("numberUno").value)
-    let numeroDosEle = Number(document.getElementById("numberDos").value)
     showResultado(Math.abs(numeroUnoEle))
 }
 
@@ -58,6 +53,9 @@ function getAletorio(){
     let numeroAleatorio = Math.floor(Math.random() * (maximo - minimo) + minimo)
     showResultado(numeroAleatorio)
 }
+
+
+// Funciones de redondeo
 
 function getRound(){
     let resultado = document.getElementById("textResultado").value
